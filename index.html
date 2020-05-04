@@ -4,12 +4,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
+        <title>Intuit Account - Sign Up</title>
         <link href="assets/stylesheets/style.css" rel="stylesheet" />
     </head>
 
     <body>
 
-        <section class="main_container">
+        <div class="main_container">
 
             <!-- Upper Flex-end Signin Section -->
             <div class="top_signin">
@@ -59,7 +60,72 @@
                 </div>
             </header>
 
+            <!-- SignUp Form Section Start Here -->
+            <section class="signup_form">
+                <div class="signup_form_container">
+                    <header class="signup_form_header">
+                        <h1>Create an Intuit account</h1>
+                        <p class="intro">One account for everything Intuit, including Mint. <br /><a href="#">Learn More</a></p>
+                        <p class="mobile_signin">Already have an account? <a href="#">Sign In</a></p>
+                    </header>
 
-        </section>
+                    <!-- Form Section Start Here -->
+                    <form action="#" method="get" class="main_form">
+                        <!-- Email Space -->
+                        <div class="form_row">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" name="email" placeholder="email@example.com" />
+                        </div>
+                        <!-- Email Space -->
+                        <div class="form_row form_space">
+                            <label for="phone">Phone (recommended)</label>
+                            <input id="phone" type="tel" name="tel" placeholder="+234" />
+                            <p class="call_rate">Standard call, messaging or data rates may apply.</p>
+                        </div>
+                        <!-- Password Space -->
+                        <div class="form_row form_space safelock_container">
+                            <label for="password">Password</label>
+                            <input id="password" type="password" name="password" placeholder="**********" />
+                            <img src="assets/images/unlock.svg" alt="safe lock" class="safe_lock" />
+                        </div>
+                        <!-- Button Space -->
+                        <div class="form_row form_space">
+                            <button><span><img src="assets/images/padlock.svg" 
+                                               alt="create an account" 
+                                               class="padlock" /> </span>Create Account</button>
+                        </div>
+
+                    </form>
+
+                    <div class="terms">
+                        <p><em>By clicking Create account, you agree to our
+                        <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></em></p>
+                    </div>
+
+                    <footer>
+                        <div class="security"><p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p></div>
+                    </footer>
+                </div>
+                
+            </section>
+            <!-- Privacy Settings Declaration --> 
+            <div class="privacy">privacy settings</div>
+
+            <footer class="legal_footer">
+                <div class="legal_links_container">
+                    <ul class="legal_links">
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+                    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+                </div>
+            </footer>
+
+        </div>
     </body>
 </html>

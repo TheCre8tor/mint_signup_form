@@ -57,6 +57,7 @@ body {
 .main_header {
     display: flex;
     justify-content: center;
+    margin-bottom: 12px;
 }
 .main_header_container {
     display: flex;
@@ -70,6 +71,9 @@ body {
 }
 .service_links li {
     margin-right: 9px;
+}
+.service_links li:last-of-type {
+    margin-right: 0;
 }
 .services a {
     display: flex;
@@ -92,4 +96,354 @@ body {
 }
 .main_header_container .intuit_logo {
     padding: 20px 0 18px 0;
+}
+
+/* SignUp Form Declaration */
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup_form_container {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    width: 90%;
+    background-color: #ffffff;
+
+    border: 1px solid #C7C7C7;
+    border-radius: 2px;
+
+    padding: 30px;
+}
+
+.signup_form_header {
+    text-align: center;
+}
+.signup_form_header h1 {
+    color: #4C4C4C;
+    font-size: 24px;
+    font-weight: 400;
+}
+.signup_form_header .intro {
+    color: #4C4C4C;
+    
+    font-size: 14px;
+    margin-top: 20px;
+}
+.signup_form_header .intro a {
+    font-size: 12px;
+    color: #0077C5;
+    text-decoration: none;
+}
+.signup_form_header .mobile_signin {
+    color: #4C4C4C;
+
+    font-size: 14px;
+    margin-top: 5px;
+}
+.signup_form_header .mobile_signin a {
+    font-size: 12px;
+    color: #0077C5;
+    text-decoration: none;
+}
+
+/* Main Form Declaration */
+.form_row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 20px;
+}
+.form_row label {
+    color: #404040;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+.form_row input[type="email"] {
+    width: 100%;
+    height: 34px;
+
+    Color: #4C4C4C;
+
+    font-size: 15px;
+    font-weight: 200;
+
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+
+    padding: 0 5px 0 5px;
+    outline: none;
+}
+.main_form .form_space {
+    margin-top: 35px;
+}
+.form_row input[type="tel"] {
+    width: 100%;
+    height: 34px;
+
+    color: #4C4C4C;
+
+    font-size: 15px;
+    font-weight: 200;
+
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+
+    padding: 0 5px 0 5px;
+    outline: none;
+}
+.form_row input[type="password"] {
+    width: 100%;
+    height: 34px;
+
+    color: #4C4C4C;
+
+    font-size: 15px;
+    font-weight: 200;
+
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+
+    padding: 0 5px 0 5px;
+    outline: none;
+}
+.form_row .safe_lock {
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    top: 32px;
+    opacity: 0.4;
+}
+.safelock_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.form_row .call_rate {
+    font-size: 10px;
+    color: #404040;
+    padding-top: 6px;
+}
+
+/* Wrong Value Input Identifier */
+.form_row input:invalid {
+    color: #D55C5F;
+    border: 1px solid #D55C5F;
+    box-shadow: none;
+}
+
+/* Input Form Focus Delaration */
+.form_row input:focus {
+    border: 1px solid #0077C5;
+}
+
+/* Form Button Delaration */
+.form_row button {
+    width: 100%;
+    height: 44px;
+
+    color: #ffffff;
+    background-color: #0077C5;
+
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1.5px solid #4C4C4C;
+
+    font-size: 15.75px;
+    font-weight: 300;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.signup_form_container .terms {
+    font-size: 12px;
+    text-align: center;
+
+    color: #757575;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 25px 0 25px;
+    line-height: 1.8;
+}
+.signup_form_container .terms a {
+    color: #0077C5;
+    text-decoration: none;
+
+}
+
+.signup_form_container footer .security {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    color: #8D9096;
+    background-color: #ECEEF1;
+
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.7;
+
+    width: 100%;
+    height: 53px;
+    padding: 16px;
+
+}
+.signup_form_container footer .security a {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+/* Privacy Settings Declaration */
+.main_container .privacy {
+    position: fixed;
+    bottom: 0px;
+    right: 120px;
+
+    color: #ffffff;
+    background-color: #6B6C79;
+    text-transform: capitalize;
+
+    padding: 15px;
+    border-radius: 3px 3px 0 0;
+
+    cursor: pointer;
+}
+
+/* Main Footer Declaration */
+.legal_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 25px;
+}
+.legal_links {
+    display: flex;
+    list-style: none;
+}
+.legal_links a {
+    font-size: 12px;
+
+    color: #757575;
+
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.legal_footer .copyright {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+
+    color: #757575;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+
+.main_container {
+    margin-bottom: 20px;
+}
+
+
+/* Mobile Syles */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    /* SignUp Form Declaration */
+    .signup_form_header h1 {
+        font-size: 20px;
+    }
+    .signup_form_header .intro {
+        font-size: 12px;
+    }
+    .signup_form_header .intro a {
+        font-size: 10px;
+    }
+    .signup_form_header .mobile_signin {
+        font-size: 12px;
+    }
+    .signup_form_header .mobile_signin a {
+        font-size: 10px;
+    }
+
+    /* User Top Signin Section */
+    .top_signin {
+        display: none;              /* This declaration hides the Top Desktop Signin Section on Mobile Devices  */
+        padding: 11px 10px;
+    }
+    .top_signin_wrapper .user_signin a {
+        padding: 5px 10px;
+        font-size: 13.5px;
+    }
+
+    /* Main Header Declaration */
+    .main_header_container .service_icon {
+        margin-right: 4px;
+        width: 20px;
+    }
+    .services a {
+        font-size: 16px;
+    }
+
+    /* Privacy Settings Declaration */
+    .main_container .privacy {
+        bottom: 0px;
+        right: 50px;
+
+        font-size: 12px;
+        padding: 13px;
+    }
+  
+}
+
+/* Tablet Style */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* User Top Signin Section */
+    .top_signin {    
+        padding: 11px 30px;
+    }
+    .top_signin_wrapper .user_signin a {
+        padding: 7px 20px;
+        font-size: 13.5px;
+    }
+
+    /* SignUp Form Declaration */
+    .signup_form_header .mobile_signin {
+        display: none;
+    }
+    .signup_form_container {
+        width: 380px;
+
+    }
+}
+
+/* Desktop Style */
+
+@media only screen and (min-width: 1024px) {
+
+    .signup_form_header .mobile_signin {
+        display: none;
+    }
+
+    /* SignUp Form Declaration */
+    .signup_form_header .mobile_signin {
+        display: none;
+    }
+    .signup_form_container {
+        width: 380px;
+    }
+
 }
