@@ -10,11 +10,12 @@ curriculum of The Odin Project's [curriculum.](https://www.theodinproject.com/co
 - Language:  
 **HTML:  25.0%.  
 CSS: 75.0%.**
-- You can see this project through this link: [View in Browser](https://thecre8tor.github.io/mint_signup_form/)  
+- You can see my project through this link: [View in Browser](https://thecre8tor.github.io/mint_signup_form/)  
 **Responsive: 
 Enabled on Mobile | Tablet | Desktop, 
 Kindly check it out.**
-- Click [here](https://accounts.intuit.com/signup.html) for the original page.
+
+- Click [here](https://accounts.intuit.com/signup.html) to visit INTUIT original page.
 
 ## What i Learned
 * I gained more experience on how to use CSS Flexbox & Advance Positioning.
