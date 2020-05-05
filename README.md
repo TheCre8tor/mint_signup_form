@@ -1,5 +1,5 @@
 # PROJECT: HTML Forms ( INTUIT Sign Up Page )
-Hello! I'm Alexander Nitiola and this is my **PROJECT: HTML FORMS** from the 
+Hello! **I'm Alexander Nitiola** and this is my **PROJECT: HTML FORMS** from the 
 curriculum of The Odin Project's [curriculum.](https://www.theodinproject.com/courses?ref=homenav)
 
 ## Screenshot of My Work
