@@ -11,9 +11,8 @@ curriculum of The Odin Project's [curriculum.](https://www.theodinproject.com/co
 **HTML:  25.0%.  
 CSS: 75.0%.**
 - You can see my project through this link: [View in Browser](https://thecre8tor.github.io/mint_signup_form/)  
-**Responsive: 
-Enabled on Mobile | Tablet | Desktop, 
-Kindly check it out.**
+**RESPONSIVE: 
+Enabled on Mobile | Tablet | Desktop.**
 
 - Click [here](https://accounts.intuit.com/signup.html) to visit INTUIT original page.
 
